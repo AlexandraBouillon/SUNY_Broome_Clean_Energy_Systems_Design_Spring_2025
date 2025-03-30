@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 import EnergyTopics from './components/EnergyTopics';
 import BuildingSystems from './components/BuildingSystems';
+import BuildingDesign from './components/BuildingDesign';
+import OccupantEngagement from './components/OccupantEngagement';
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
 
         <EnergyTopics />
         <BuildingSystems />
+        <BuildingDesign />
+        <OccupantEngagement />
 
         <section className="education-section">
           <h2>Education & Community Impact</h2>

@@ -1,0 +1,74 @@
+.occupant-engagement {
+  padding: 40px 0;
+  background-color: #f8f9fa;
+}
+
+.section-intro {
+  max-width: 800px;
+  margin: 0 auto 30px;
+  text-align: center;
+  color: #2c3e50;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.engagement-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.engagement-card {
+  background-color: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.engagement-card:hover {
+  transform: translateY(-5px);
+}
+
+.engagement-card h3 {
+  color: #edb31f;
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.engagement-card ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.engagement-card li {
+  margin-bottom: 12px;
+  padding-left: 25px;
+  position: relative;
+  color: #444;
+  line-height: 1.4;
+}
+
+.engagement-card li::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: #edb31f;
+}
+
+@media (max-width: 768px) {
+  .engagement-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .section-intro {
+    padding: 0 20px;
+  }
+} 
