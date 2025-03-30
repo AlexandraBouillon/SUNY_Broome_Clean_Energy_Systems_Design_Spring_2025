@@ -378,6 +378,18 @@ const EmissionsData = () => {
           <li>Recent years show a gradual return to pre-pandemic levels with some improvements</li>
         </ul>
       </div>
+
+      <div className="research-preview">
+        <h3>EGR 270 - Clean Energy Design Class Research Results</h3>
+        <div className="coming-soon">
+          <p>Coming Soon</p>
+          <ul>
+            <li>Campus Energy Use and Greenhouse Gas Emissions</li>
+            <li>Evaluation of Our Campus Infrastructure</li>
+            <li>Suggestion for future Energy and Cost Savings</li>
+          </ul>
+        </div>
+      </div>
     </section>
   );
 };

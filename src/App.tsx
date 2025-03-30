@@ -7,10 +7,12 @@ import OccupantEngagement from './components/OccupantEngagement';
 import CarbonFootprint from './components/CarbonFootprint';
 import CarbonReduction from './components/CarbonReduction';
 import EmissionsData from './components/EmissionsData';
+import SideNavigation from './components/SideNavigation';
 
 function App() {
   return (
     <div className="App">
+      <SideNavigation />
       <header className="App-header">
         <h1>SUNY Broome New Energy Web Portal</h1>
       </header>
@@ -25,15 +27,35 @@ function App() {
           </p>
         </section>
 
-        <EnergyTopics />
-        <BuildingSystems />
-        <BuildingDesign />
-        <CarbonFootprint />
-        <CarbonReduction />
-        <OccupantEngagement />
-        <EmissionsData />
+        <section id="core-energy">
+          <EnergyTopics />
+        </section>
 
-        <section className="education-section">
+        <section id="building-systems">
+          <BuildingSystems />
+        </section>
+
+        <section id="building-design">
+          <BuildingDesign />
+        </section>
+
+        <section id="carbon-footprint">
+          <CarbonFootprint />
+        </section>
+
+        <section id="carbon-reduction">
+          <CarbonReduction />
+        </section>
+
+        <section id="occupant-engagement">
+          <OccupantEngagement />
+        </section>
+
+        <section id="emissions-data">
+          <EmissionsData />
+        </section>
+
+        <section id="education-impact" className="education-section">
           <h2>Education & Community Impact</h2>
           <p>
             We are here to learn, educate and inspire students, faculty, staff, and the community. Our program actively contributes to the regional clean energy ecosystem through:
