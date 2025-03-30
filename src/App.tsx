@@ -4,6 +4,8 @@ import EnergyTopics from './components/EnergyTopics';
 import BuildingSystems from './components/BuildingSystems';
 import BuildingDesign from './components/BuildingDesign';
 import OccupantEngagement from './components/OccupantEngagement';
+import CarbonFootprint from './components/CarbonFootprint';
+import CarbonReduction from './components/CarbonReduction';
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
         <EnergyTopics />
         <BuildingSystems />
         <BuildingDesign />
+        <CarbonFootprint />
+        <CarbonReduction />
         <OccupantEngagement />
 
         <section className="education-section">
