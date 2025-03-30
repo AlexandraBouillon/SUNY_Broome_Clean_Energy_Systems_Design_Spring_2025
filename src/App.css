@@ -51,6 +51,33 @@ h2 {
   margin-bottom: 20px;
 }
 
+.education-section {
+  background-color: #f8f9fa;
+  padding: 30px;
+  border-radius: 8px;
+  margin-top: 40px;
+}
+
+.impact-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 20px;
+}
+
+.impact-list li {
+  margin-bottom: 15px;
+  padding-left: 25px;
+  position: relative;
+}
+
+.impact-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #edb31f;
+  font-weight: bold;
+}
+
 .focus-areas {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
