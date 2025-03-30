@@ -1,0 +1,51 @@
+.energy-topics {
+  padding: 40px 0;
+}
+
+.principles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.principle-card {
+  background-color: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.principle-card:hover {
+  transform: translateY(-5px);
+}
+
+.principle-card h3 {
+  color: #edb31f;
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+}
+
+.principle-card ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.principle-card li {
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.principle-card li::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: #edb31f;
+}
+
+.principle-card p {
+  line-height: 1.6;
+  color: #444;
+} 
