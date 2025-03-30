@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './SideNavigation.css';
+import './SideNavigation.css'; // change
 
 const SideNavigation = () => {
   const [isVisible, setIsVisible] = useState(false);
