@@ -6,12 +6,13 @@ import BuildingDesign from './components/BuildingDesign';
 import OccupantEngagement from './components/OccupantEngagement';
 import CarbonFootprint from './components/CarbonFootprint';
 import CarbonReduction from './components/CarbonReduction';
+import EmissionsData from './components/EmissionsData';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>SUNY Broome Clean Energy Systems Design</h1>
+        <h1>SUNY Broome New Energy Web Portal</h1>
       </header>
       <main className="App-main">
         <section className="intro-section">
@@ -30,6 +31,7 @@ function App() {
         <CarbonFootprint />
         <CarbonReduction />
         <OccupantEngagement />
+        <EmissionsData />
 
         <section className="education-section">
           <h2>Education & Community Impact</h2>
